@@ -463,6 +463,10 @@
                                 "changeAddress": {
                                     "type": "string",
                                     "description": "Change address"
+                                },
+                                "trust": {
+                                    "type": "string",
+                                    "description": "Change in trust for the from address"
                                 }
                             }
                         }
@@ -510,6 +514,9 @@
                             "type": "object",
                             "properties": {
                                 "balance": {
+                                    "type": "integer"
+                                },
+                                "trust": {
                                     "type": "integer"
                                 }
                             }
@@ -677,6 +684,9 @@
                     "items": {
                         "type": "string"
                     }
+                },
+                "trust": {
+                    "type": "integer"
                 }
             }
         },
@@ -721,6 +731,9 @@
                                         "type": "integer"
                                     },
                                     "address": {
+                                        "type": "integer"
+                                    },
+                                    "trust": {
                                         "type": "integer"
                                     }
                                 }
