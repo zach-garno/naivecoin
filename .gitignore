@@ -6,3 +6,11 @@ coverage
 yarn.lock
 .vscode
 data
+NaiveCoin.njsproj
+NaiveCoin.njsproj.user
+.vs/NaiveCoin/v16/.suo
+NaiveCoin.sln
+bin/Microsoft.NodejsTools.WebRole.dll
+obj/Debug/NaiveCoin.njsproj.CoreCompileInputs.cache
+obj/Debug/NaiveCoin.njsproj.FileListAbsolute.txt
+obj/Debug/NaiveCoin.njsprojAssemblyReference.cache
